@@ -48,7 +48,7 @@ void display(node * start)
        printf("%d",ptr->data);
 	   ptr=ptr->next;
    }
-   printf("%d",ptr->data);
+   printf("%d\t",ptr->data);
 }
 
 node * insert_beg(node * start)
